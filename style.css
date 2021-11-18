@@ -1,0 +1,50 @@
+nav {
+  color: blue;
+  display: flex;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 10px;
+}
+
+.about {
+  position: relative;
+}
+
+.about__img {
+  margin: 0 40px 0 auto;
+  width: 40%;
+  height: 60%;
+  display: block;
+  z-index: 2;
+}
+.about__absolute {
+  position: absolute;
+  top: 50%;
+}
+
+.about__title {
+  font-size: 50px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+.about__box {
+  background: blue;
+  width: 800px;
+  height: 140px;
+  z-index: 1;
+  margin-top: 0px;
+  padding-top: 0px;
+}
